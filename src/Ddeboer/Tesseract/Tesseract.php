@@ -88,7 +88,7 @@ class Tesseract
         $arguments = array(
             $filename,
             $tempFile,
-            '-psm',
+            '--psm',
             $pageSegMode
         );
         
